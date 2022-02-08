@@ -201,7 +201,15 @@ Essa aplicação foi desenvolvida utilizando Python 3, é necessário para o fun
 
 ### Como o projeto pode ser executável
 
-Após implementar o requisito bônus, seu programa deverá ser executável **via linha de comando** com o comando `inventory_report <argumento1> <argumento2>`:
+O programa é executável **via linha de comando** com os comandos
+
+~~~bash
+cd inventory-report
+~~~
+
+~~~bash
+inventory_report <argumento1> <argumento2>
+~~~
 
 - O `<argumento 1>` deve receber o caminho de um arquivo a ser importado. O arquivo pode ser um `csv`, `json` ou `xml`.
 
